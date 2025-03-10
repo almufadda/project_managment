@@ -1,0 +1,72 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-03-09 21:39:01.149233",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "employee_name",
+  "total_expenses",
+  "column_break_ornj",
+  "date",
+  "section_break_lfhp",
+  "table_ayga"
+ ],
+ "fields": [
+  {
+   "fieldname": "employee_name",
+   "fieldtype": "Data",
+   "label": "Employee Name"
+  },
+  {
+   "fieldname": "column_break_ornj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "section_break_lfhp",
+   "fieldtype": "Section Break",
+   "label": "Expenses Items"
+  },
+  {
+   "fieldname": "table_ayga",
+   "fieldtype": "Table",
+   "label": "Expenses Items",
+   "options": "Expenses Item"
+  },
+  {
+   "fieldname": "total_expenses",
+   "fieldtype": "Float",
+   "label": "Total Expenses",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-03-09 23:29:16.390085",
+ "modified_by": "Administrator",
+ "module": "Project Managment",
+ "name": "Expenses",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
