@@ -7,7 +7,7 @@ def execute(filters=None):
 
 def get_columns():
     return [
-        {"label": "Parent Name", "fieldname": "parent", "fieldtype": "Data", "width": 200},
+        {"label": "Expenses", "fieldname": "parent", "fieldtype": "Data", "width": 200},
         {"label": "Expense Amount", "fieldname": "amount", "fieldtype": "Float", "width": 150}
     ]
 
