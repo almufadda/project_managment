@@ -5,6 +5,12 @@ app_description = "Test"
 app_email = "a.almufadda@sanaam.sa"
 app_license = "mit"
 
+fixtures = [
+    {"dt": "Custom Field", "filters": [["dt", "=", "ToDo"]]}
+]
+
+
+
 # Apps
 # ------------------
 
